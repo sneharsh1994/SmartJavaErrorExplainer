@@ -1,21 +1,56 @@
-# SmartJavaErrorExplainer
-An AI-based Java error explanation system that helps beginners understand common Java runtime and compile-time errors with clear meanings, causes, and fixes.
+# Smart Java Error Explainer 🚀
+Smart Java Error Explainer is a simple console-based Java project that helps beginners understand common Java runtime and compile-time errors.  
+It takes a Java error as input and explains its **meaning, cause, and solution** in an easy-to-understand way.
 
-## Features
-- Explains common Java exceptions
+This project is useful for:
+- Java beginners
+- Students preparing for exams or viva
+- Understanding common Java exceptions quickly
+
+##  Features
+- Explains common Java errors like:
+  - NullPointerException
+  - ArrayIndexOutOfBoundsException
+  - ArithmeticException
+  - NumberFormatException
+  - ClassNotFoundException
+- Simple text-based (console) interaction
 - Beginner-friendly explanations
-- Console-based Java application
-- Easy to extend with new errors
+- Easy to extend with more errors
 
-## Tech Stack
+##  Technologies Used
 - Java
-- HashMap-based error mapping
-- Console input/output
+- Scanner class (for input)
+- HashMap (for storing error explanations)
+- IntelliJ IDEA
+- Git & GitHub
 
-## How to Run
-1. Clone the repository
-2. Compile and run the main Java file
-3. Paste a Java error to get an explanation
+##  Project Structure
+SmartJavaErrorExplainer/
+│
+├── src/
+│   └── project/
+│       └── SmartJavaErrorExplainer.java
+│
+├── README.md
+├── .gitignore
+└── Java1.iml
 
-## Author
-Sneha Rani
+##  Sample Input & Output
+
+## Example 1
+
+**Input**
+NullPointerException
+
+**Output**
+Meaning:
+You are using an object that has not been initialized.
+
+Cause:
+The object reference is null.
+
+Solution:
+Initialize the object before use.
+
+
